@@ -5,7 +5,7 @@
   "description": "This extension allows to download Quora Question and Answers.",
   "version": "1.2",
 
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  
   "content_scripts": [ {
       "matches": ["http://www.quora.com/*","https://www.quora.com/*"],
       "js":["jquery.js","jspdf.min.js","handler.js"]
